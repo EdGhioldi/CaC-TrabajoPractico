@@ -1,0 +1,362 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* Nav Bar*/ 
+.logoCaC {
+    width: 100px;
+    height: 800px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+.navbar-logo img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+#conf{
+    width: 300px;
+    color: #ffffff; 
+}
+.navbar-nav .compra {
+    color: green ;
+}
+
+/* La Conferencia */
+
+.la-conferencia {
+    position: relative;
+    color: #fff;
+    padding: 100px; 
+    margin-bottom: 0px;
+    height: 1200px;
+}
+.la-conferencia::before {
+    content: "";
+    background-image: url('../imagenes tp/ba1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: brightness(0.5); 
+    z-index: -1;
+}
+.la-conferencia-texto {
+    text-align: right; 
+    margin-bottom: 20px; 
+}
+
+.transparent-button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px; 
+    text-decoration: none;
+}
+
+.la-conferencia-boton {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Oradores */
+
+.h2-oradores{
+    margin-top: -10px;
+}
+.oradores {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.oradores-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+.orador {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    width: calc(33.33% - 20px); 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.orador img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.orador-nombre {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: -px;
+}
+.descr{
+    padding: 10px;
+    text-align: left;
+    margin-top: -15px;
+}
+.habilidades {
+    margin-top: 1px;
+    text-align: left;
+    padding: 10px;
+}
+
+.habilidad {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+.javascript {
+    background-color: #edf04e;
+    color: #000;
+}
+
+.react {
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+.negocios {
+    background-color: #777;
+    color: #fff;
+}
+
+.startups {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+
+/* Estilo para la sección "El lugar y la fecha" */
+.img1 {
+    width: 700px;
+    height: auto;
+    margin-left: 0px;
+}
+
+.lugar-fecha {
+    width: 100%;
+    margin-right: -90px;
+    display: inline;
+}
+
+.lugar-fecha-texto {
+    background-color: #333;
+    padding: 20px;
+    text-align: left;
+    margin-left: 0; /* Cambia margin-left a 0 */
+    margin-right: -50 !important; /* Cambia margin-right a 0 */
+    width: 100% ;
+}
+
+.lugar-fecha-texto h1 {
+    font-size: 24px; 
+    color: #fff; 
+
+}
+
+.lugar-fecha-texto p {
+    color: #fff; 
+    padding: 10px;
+}
+
+.conoce-mas-button {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Estilo para la sección "Conviértete en un Orador" */
+.centered-section {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.centered-section p {
+    font-size: 20px; 
+    margin-bottom: -10px;
+}
+
+.centered-section h1 {
+    font-size: 36px;
+    color: #333; 
+}
+
+.subrayado-puntos {
+    border-bottom: 1px dotted #000; 
+    text-decoration: none; 
+}
+
+/* Estilo para el formulario */
+.formulario-section {
+    text-align: center;
+    margin-top: 20px;
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.formulario-section input,
+.formulario-section textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-section small {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Estilo para los campos "Nombre" y "Apellido" */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .col-md-6 {
+    flex: 0 0 calc(50% - 5px);
+    margin-right: 10px;
+}
+
+/* Estilo para el campo de texto "Sobre qué quieres hablar?" */
+.formulario-section textarea {
+    height: 100px;
+}
+
+/* Estilo para el texto pequeño debajo del campo de texto */
+.formulario-section small {
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+
+/* Estilo para el botón de enviar */
+.btn {
+    width: 100%; 
+    color: #fff; 
+    background-color:rgb(135,187,48)!important;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* Footer */
+footer {
+    background-color: rgb(30, 77, 105); 
+    padding: 20px; 
+    margin: 10px;
+    text-align: center;
+}
+
+/* Estilo para los botones en el footer */
+
+.footerColor
+{
+    background-color: rgb(30, 77, 105);
+}
+.footerText{
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.footerText:hover{
+    color: rgb(211, 211, 211);
+}
+.footerText:focus{
+    color: rgb(94, 228, 123);
+}
+
+
+.container-fluid {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.box-container {
+    display: flex;
+}
+
+.box1, .box2, .box3 {
+    width: 210px; /* Ancho del rectángulo en píxeles */
+    height: 210px; /* Altura del rectángulo en píxeles */
+    border: 2px solid #2980b9; /* Borde del rectángulo (opcional) */
+    margin: 5px;
+    display: inline-block; /* Esto alineará los divs horizontalmente */
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.box1{
+    border: 2px solid #2287ed; /* Borde del rectángulo (opcional) */
+    margin: 10px 3px;
+}
+.box2{
+    border: 2px solid #0eeafa; /* Borde del rectángulo (opcional) */
+    margin: 10px 3px;
+
+}
+.box3{
+    border: 2px solid rgb(255, 255, 9); /* Borde del rectángulo (opcional) */
+    margin: 10px 3px;
+}
+.doc{
+    font-size: 14px;
+    margin: 20px 0 0 0;
+}
+.box-desc{
+    font-size: 16px;
+}
+.porcentaje{
+    font-weight: bolder;
+}
+
+.valor-ticket{
+    margin-top: -50px;
+}
+.label{
+    text-align: left;
+}
