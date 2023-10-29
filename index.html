@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trabajo Practico CaC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <div class="navbar-logo">
+                    <img src="/imagenes tp/codoacodo.png" alt="Logo" class="logoCaC">
+                    <span id="conf">Conf Bs As</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#la-conferencia">La Conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#oradores">Los Oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lugar-fecha">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#form">Conviertete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link compra" href="compra.html">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="la-conferencia" class="la-conferencia">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6 la-conferencia-texto">
+                    <h2>Conf Bs As</h2>
+                    <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el
+                        conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a
+                        conocer a miembros del evento, a otros estudiendo de Codo a Codo y los oradores de primer nivel
+                        que tenemos para ti. Te esperamos!</p>
+                    <a href="#form" class="transparent-button">Quiero ser orador</a>
+                    <a href="compra.html" class="la-conferencia-boton">Comprar Tickets</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="oradores" class="oradores">
+        <div class="container">
+            <p>CONOCE A LOS</p>
+            <h2 class="h2-oradores">ORADORES</h2>
+            <div class="oradores-contenedor">
+                <!-- Primer orador -->
+                <div class="orador">
+                    <div class="orador-imagen">
+                        <img src="imagenes tp/steve.jpg" alt="Orador 1">
+                    </div>
+                    <div class="habilidades">
+                        <span class="habilidad javascript">JavaScript</span>
+                        <span class="habilidad react">React</span>
+                    </div>
+                    <div class="orador-nombre">Steve Jobs</div>
+
+                    <p class="descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quas rerum itaque
+                        quis soluta consequuntur aspernatur aliquid culpa iusto, dolor nesciunt rem autem est hic
+                        temporibus, exercitationem deserunt consequatur. Nam!.</p>
+                </div>
+                <!-- Segundo orador -->
+                <div class="orador">
+                    <div class="orador-imagen">
+                        <img src="imagenes tp/bill.jpg" alt="Orador 2">
+                    </div>
+                    <div class="habilidades">
+                        <span class="habilidad javascript">JavaScript</span>
+                        <span class="habilidad react">React</span>
+                    </div>
+                    <div class="orador-nombre">Bill Gates</div>
+
+                    <p class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere dolorum
+                        sequi, dolores suscipit perferendis, eligendi magnam quod ad eos facilis exercitationem modi
+                        ratione quibusdam temporibus, architecto laudantium maiores sed?</p>
+                </div>
+                <!-- Tercer orador -->
+                <div class="orador">
+                    <div class="orador-imagen">
+                        <img src="imagenes tp/ada.jpeg" alt="Orador 3">
+                    </div>
+                    <div class="habilidades">
+                        <span class="habilidad negocios">Negocios</span>
+                        <span class="habilidad startups">Strarups</span>
+                    </div>
+                    <div class="orador-nombre">Ada Lovelace</div>
+
+                    <p class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam commodi
+                        doloremque dolorum amet, at delectus recusandae, numquam autem officia odio nisi iusto porro,
+                        blanditiis saepe perferendis aliquam asperiores illo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lugar-fecha" class="lugar-fecha">
+        <div class="row">
+            <!-- Primera mitad con imagen -->
+            <div class="col-md-6">
+                <img src="imagenes tp/honolulu.jpg" alt="Imagen del lugar y la fecha" class="img1">
+            </div>
+            <!-- Segunda mitad con texto -->
+            <div class="col-md-6 lugar-fecha-texto">
+                <h1>Buenos Aires - Octubre</h1>
+                <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos,
+                    Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
+                    Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
+                    Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente
+                    600km<sup>2</sup> de superficie).</p>
+                <a href="#oradores" class="conoce-mas-button">Conoce más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "Conviértete en un Orador" -->
+    <section id="form" class="centered-section">
+        <div class="container">
+            <p>CONVIÉRTETE EN UN</p>
+            <h1>ORADOR</h1>
+            <h6>Anótate como orador para dar una <span class="subrayado-puntos">charla ignite</span>. Cuéntanos de qué
+                quieres hablar!</h6>
+        </div>
+    </section>
+    <!-- Formulario -->
+    <section class="formulario-section">
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Sobre qué quieres hablar?"></textarea>
+                    <small class="form-text text-muted">Recuerda incluir un título para tu charla.</small>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+
+        <div class="container-fluid text-center footerColor p-5 pt-3 pb-3">
+            <div class="row pt-3 pb-3 align-items-center justify-content-evenly">
+                <div class="col-auto">
+                    <a class="footerText" href="#">Preguntas <br> frecuentes</a>
+                </div>
+                <div class="col-auto ">
+                    <a class="footerText" href="#">Contáctanos</a>
+                </div>
+                <div class="col-auto ">
+                    <a class="footerText" href="#">Prensa</a>
+                </div>
+                <div class="col-auto ">
+                    <a class="footerText" href="#">Conferencia</a>
+                </div>
+                <div class="col-auto">
+                    <a class="footerText" href="#">Términos y <br> condiciones</a>
+                </div>
+                <div class="col-auto ">
+                    <a class="footerText" href="#">Privacidad</a>
+                </div>
+                <div class="col-auto ">
+                    <a class="footerText" href="#">Estudiantes</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
